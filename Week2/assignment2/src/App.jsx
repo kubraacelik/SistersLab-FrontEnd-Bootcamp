@@ -26,12 +26,12 @@ function App() {
   ];
 
   const title = "Car List";
-  const text = "Our Cars";
+  const string = "  Cars";
   const number = 4;
 
   return (
     <div className="App">
-      <DataTable title={title} data={cars} text={text} number={number}></DataTable>
+      <DataTable title={title} data={cars} string={string} number={number}></DataTable>
     </div>
   );
 }

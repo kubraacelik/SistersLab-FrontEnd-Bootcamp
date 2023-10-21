@@ -1,10 +1,10 @@
 import React from 'react'
 
-function DataTable({ title, data, text, number }) {
+function DataTable({ title, data, string, number }) {
     return (
         <div style={{margin: "25px"}}>
             <h2>{title}</h2>
-            <p>{text}</p>
+            <p>{string}</p>
             <p>Number: {number}</p>
             <table>
                 <thead>
