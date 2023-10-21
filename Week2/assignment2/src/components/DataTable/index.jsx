@@ -3,13 +3,12 @@ import React from 'react'
 function DataTable({ title, data, string, number }) {
     return (
         <div style={{margin: "25px"}}>
-            <h2>{title}</h2>
             <p>{string}</p>
             <p>Number: {number}</p>
             <table>
                 <thead>
                     <tr>
-                        <th>ID</th>
+                        <th>Id</th>
                         <th>Brand</th>
                         <th>Model</th>
                     </tr>
